@@ -137,15 +137,6 @@
                 display: none;
             }
 
-            & #false_cardnumber.active,
-            #false_exp.active,
-            #false_cvc.active {
-                display: block;
-                margin-top: -15px;
-                margin-bottom: 15px;
-                color: var(--red);
-            }
-
             & .number {
                 display: flex;
 
@@ -215,6 +206,14 @@
 }
 
 /* active class */
+#false_cardnumber.active,
+#false_exp.active,
+#false_cvc.active {
+    display: block !important;
+    margin-top: -15px !important;
+    margin-bottom: 15px !important;
+    color: var(--red) !important;
+}
 
 #cardnumber.active,
 #expmonth.active,
